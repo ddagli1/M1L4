@@ -9,7 +9,7 @@ intents.message_content = True  # Botun mesaj içeriklerini görmesine izin veri
 # Botumuzu başlatıyoruz.
 bot = commands.Bot(command_prefix='$', intents=intents)
 # $ işareti, komutlarımızın başına yazmamız gereken özel bir işarettir.
-# Örneğin, bir komut çağırmak için "$hello" yazmamız gerekir.
+# Örneğin, bir komut çağırmak için "$hello" yazmamız gerekir..
 
 # Bot Discord'a bağlandığında çalışacak bir kod yazıyoruz.
 @bot.event  # Bu, belirli olaylar olduğunda çalışan kod parçalarını belirtmek için kullanılır.
